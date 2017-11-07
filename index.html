@@ -10,28 +10,31 @@
   <!-- We need to bring in the bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <link rel="stylesheet" href="bootstyle.css">
+  <link href="https://fonts.googleapis.com/css?family=Radley" rel="stylesheet">
 
  </head>
 
  <body>
 	<div class="container">
 
-      <div class="row header">
-
-        <div class="col-md-8">
-          <h2><strong>Mubeena Ahmed</strong></h2>
-        </div>
-
-      <div class="col-md-4">
-        <ul>
-            <li class="inline"><a href="#">About</a></li>
-            <li class="inline"><a href="portfolio.html">Portfolio</a></li>
-            <li class="inline"><a href="contact.html">Contact</a></li>
-
-        </ul>
-
-        </div>
-      </div>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<span class="navbar-text">
+					<h2>Mubeena Ahmed</h2>
+		    </span>
+			  <div class="collapse navbar-collapse" id="navbarText">
+				   <ul class="navbar-nav mr-auto">
+				      <li class="nav-item active">
+					       <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+					  </li>
+					  <li class="nav-item">
+					  	    <a class="nav-link" href="portfolio.html">Portfolio</a>
+					   </li>
+					   <li class="nav-item">
+					        <a class="nav-link" href="contact.html">Contact</a>
+					    </li>
+					    </ul>
+				</div>
+		</nav>
 
     <div id="main-content">
 
@@ -44,31 +47,29 @@
 			      <p>Hello. I am Mubeena Ahmed, aspiring Web developer. I have a Bachelor's degree in accounting, a certification in Medical Coding, and here I am now, pushing my limits to become a future Full Stack developer. I can safely say this has been my most exciting endeavor to date, and I am ready to buckle up and enjoy the bumpy but rewarding ride ahead!</p>
 		          
 	        </div>
+	        
 	        <div class="col-sm-3">
 	          <h3>Connect with Me</h3>
-
-		          <img src="assets/images/if_github_401441.png" class="social .img-responsive" alt="Github" width="50" height="50">
-		          <img src="assets/images/if_square-linkedin_317725.png" class="social .img-responsive" alt="LinkedIn" width="50" height="50">
-		          <img src="assets/images/if_stackoverflow_273179.png" class="social .img-responsive" alt="Stack Overflow" width="50" height="50"> 
-	        </div>
+				
+            		<div class="col-xs-4">
+            			<img src="assets/images/if_github_401441.png" class="social .img-responsive" alt="Github" width="50" height="50">
+            		</div>
+            		<div class="col-xs-4">
+            			<img src="assets/images/if_square-linkedin_317725.png" class="social .img-responsive" alt="LinkedIn" width="50" height="50">
+					</div>
+	            	<div class="col-xs-4">
+		                <img src="assets/images/if_stackoverflow_273179.png" class="social .img-responsive" alt="Stack Overflow" width="50" height="50"> 
+	        		</div>
+	       
+	      		</div>
 	       
 	      </div>
 	</div>
 
-      
-
-
        
-
-	     <div class="row footer">
-			      <div class="col-sm-12">
-			      	<br>
-			      	&copy; Copyright 2017 Mubeena Ahmed
-			        <br><br>
-			      </div>
-			    </div>
-			  
-		</div>
+		<nav class="navbar fixed-bottom navbar-light bg-light">
+  			<p class="navbar-brand">&copy; Copyright 2017 Mubeena Ahmed</p>
+		</nav>
 
  </div>
 
