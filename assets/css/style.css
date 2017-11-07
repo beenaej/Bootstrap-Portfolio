@@ -1,0 +1,278 @@
+html, body {
+	height: 100%;
+}
+
+html, #container {		/*added 10-30-17 for accomodating contact.html*/
+	margin: 0;		/*added 10-30-17 for accomodating contact.html*/
+	padding: 0;		/*added 10-30-17 for accomodating contact.html*/
+	height: 100%;
+	
+}
+
+
+body {
+	width: 960px;
+	border: 1px solid white;
+	justify-content: center;
+	margin: auto;
+
+}
+
+#container{						/*added 10-30-17 for accomodating contact.html*/
+	min-height:100%;
+   	position:relative;
+   	border: 1px solid white;
+	margin: auto;
+	/*background-color: gray;*/
+	}
+
+header {
+	width: 960px;
+	background-color: #ffffff;
+	height: 75px;
+	/*border: 0.5px solid #cccccc;
+	border-bottom: 1px solid gray;*/
+	border-style: hidden;
+
+}
+
+#header {						/*added 10-30-17 for accomodating contact.html*/
+	background-color: #ffffff;
+	height: 73px;
+	border-style: hidden;
+	
+	
+}
+
+
+h1{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	background-color: #4aaaa5;
+	/*width:350px;*/
+	height: 55px;
+	padding: 10px;
+	margin: 0px 0px 0px 75px;
+	float: left;
+	display: inline-block;
+	color: white;
+}
+
+
+clearfix {
+    clear:both;
+}
+
+#navlist {
+	width: 300px;
+ 	display: inline;
+	float: right;
+	margin: auto;
+}
+
+
+
+li,a {
+  padding: 0px 5px 0px 5px;
+  list-style-type: none;
+  display: inline;
+  text-decoration: none;
+  margin: 2px 0px 2px 0px ;
+  color: #777777;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+ 
+}
+
+
+
+.content-box {
+	width: 960px;
+	/*background: url('../images/concrete_seamless');*/
+	background-color: gray;
+	height: 630px;
+	margin: auto;
+	padding: 0;
+
+}
+
+
+
+#mainBody{					/*added 10-30-17 for accomodating contact.html*/
+	padding: 0px;
+	padding-bottom: 50px; /*height of footer*/
+	background-color: gray;
+	height: 580px;
+	margin: auto;
+	width: 960px;
+}							
+
+
+#aboutme {
+	width: 650px;
+	height: 470px;
+	border: 1px solid #dddddd;
+	margin: 30px 0px 5px 30px;
+	display:inline-block;
+	float: left;
+	padding: 5px 5px 5px 5px;
+	background-color: #ffffff;
+
+}
+
+#contactme {
+	width: 620px;
+	height: 470px;
+	border: 1px solid #dddddd;
+	margin: 30px 0px 5px 30px;
+	display:inline-block; 
+	float: left;
+	padding: 5px 5px 5px 5px;
+	background-color: #ffffff;
+
+}
+
+#portfolio_box {		/*added 10-30-17 for accomodating portfolio.html*/
+	width: 630px;
+	height: 470px;
+	border: 1px solid #dddddd;
+	margin: 30px 0px 5px 30px;
+	display:inline-block; 
+	float: left;
+	padding: 6px;
+	background-color: #ffffff;
+	justify-content: center;
+}
+
+
+clearfix{
+    clear:both;
+}
+
+
+#line-below1{
+	border-bottom: 2px solid gray; 
+	width: 500px;
+	margin: 5px 2px 20px 50px;
+  }	
+
+#line-below2{
+	border-bottom: 2px solid gray; 
+	width: 200px;
+	margin: 0px 5px 10px 35px;
+
+  }	
+
+  #pfline-below{		/*added 10-30-17 for accomodating portfolio.html*/
+	border-bottom: 2px solid gray; 
+	width: 500px;
+	margin: 5px 2px 0px 50px;
+	padding: 0px;
+  }	
+
+p { 
+	font-weight: 1px;
+	padding: 5px 35px 5px 35px;
+	margin: 0px 5px 0px 15px;
+	line-height: 1.8;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+}
+
+
+ 
+form {
+	width: 250px;
+	height: 250px;
+	margin: 10px 0px 5px 15px;
+	padding: 5px 5px 5px 35px;
+	
+}
+
+div.imgbox {				/*added 10-30-17 for accomodating portfolio.html*/
+    width: 40px;
+    height: 20px;
+    margin: 5px 10px 40px 10px;
+    padding: 30px 10px 30px 10px;
+}
+
+div#leftBoxesBox {			/*added 10-30-17 for accomodating portfolio.html*/
+    position: absolute;
+    left: 0;
+    width: 20em;
+    margin-left: 100px;
+}
+
+div#rightBoxesBox {			/*added 10-30-17 for accomodating portfolio.html*/
+    position: absolute;
+    left: 13em;
+    width: 20em;
+    margin-left: 100px;
+}
+
+
+
+#connect {
+	float: right;
+	width: 250px;
+	margin: 30px 0px 5px 5px;
+	border: 1px solid #dddddd;
+	height: 150px;
+	background-color: #ffffff;
+
+}
+
+#connect2 {
+	float: right;
+	width: 250px;
+	margin: 30px 0px 5px 5px;
+	border: 1px solid #dddddd;
+	height: 150px;
+	background-color: #ffffff;
+
+}
+
+#socmedia{
+	text-align: center;
+
+}
+
+
+#heading1 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	padding: 10px 0px 5px 0px;
+	margin: 0px 0px 5px 50px;
+	text-align: left;
+	color: #4aaaa5;
+	
+}
+
+#heading2 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	padding: 10px 0px 5px 0px;
+	margin: 0px 0px 5px 30px;
+	text-align: left;
+	color: #4aaaa5;
+	
+}
+
+#pfHeading1 {			/*added 10-30-17 for accomodating portfolio.html*/
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	padding: 30px 0px 5px 0px;
+	margin: 0px 0px 5px 50px;
+	text-align: left;
+	color: #4aaaa5;
+	
+}
+
+
+#footer {					/*added 10-30-17 for accomodating contact.html*/
+	position: absolute;	
+	bottom: 0;	
+	width: 100%;
+	height: 50px;
+	background-color: #666666;
+	color: #4aaaa5;
+	border-top: 8px solid #4aaaa5;
+	text-align: center;
+	padding: 25px 2px 5px 0px;
+	
+}
